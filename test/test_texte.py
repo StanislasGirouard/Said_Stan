@@ -20,7 +20,7 @@ font = pygame.font.SysFont('Arial', 30)
 font_input = pygame.font.SysFont('Arial', 40)
 
 # Charger l'image de fond
-image_fond = pygame.image.load('door.png')  # Remplacez par le chemin de votre image
+image_fond = pygame.image.load('./assets/img/door.png')  # Remplacez par le chemin de votre image
 image_fond = pygame.transform.scale(image_fond, (largeur_fenetre, hauteur_fenetre))  # Redimensionner l'image pour qu'elle couvre l'écran
 
 # Variables de texte
@@ -31,7 +31,6 @@ max_input_length = 20  # Longueur maximale de l'input
 def afficher_texte(texte, taille_font, y_position):
     text_surface = taille_font.render(texte, True, NOIR)
     text_rect = text_surface.get_rect(center=(largeur_fenetre // 2, y_position))
-    fenetre.blit(text_surface, text_rect)
 
 # Fonction principale du jeu
 def boucle_principale(): # def pour un ecran ?

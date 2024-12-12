@@ -20,7 +20,7 @@ class EscapeGame:
         # Load background image
         # Replace 'background.jpg' with the path to your image file
         # path_file = './assets/'
-        self.background_image = pygame.image.load('./assets/img/hub.png')
+        self.background_image = pygame.image.load('./assets/img/hub_door.png')
 
         self.load_music_assets()
 

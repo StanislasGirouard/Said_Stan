@@ -13,7 +13,7 @@ NOIR = (0, 0, 0)
 BLANC = (255, 255, 255)
 
 # Chargement de l'image de fond
-image_fond = pygame.image.load("./assets/img/hub.png")  # Remplacez "background.jpg" par votre image
+image_fond = pygame.image.load("./assets/img/hub_hub.png")  # Remplacez "background.jpg" par votre image
 
 # Définir la taille de l'image de fond pour qu'elle remplisse l'écran
 image_fond = pygame.transform.scale(image_fond, (largeur_ecran, hauteur_ecran)) #changer la taille par la taille de la petite fenetre.
@@ -30,13 +30,13 @@ font = pygame.font.Font(None, 25)
 
 # Fonction des boutons
 def fonction_bouton_1():
-    print("Entrée dans la salle 101")
+    print("Entrée dans la salle 101, renvoie vers Cyber. ")
 
 def fonction_bouton_2():
-    print("Entrée dans la salle 103")
+    print("Entrée dans la salle 103, renvoie vers Dev. ")
 
 def fonction_bouton_3():
-    print("Entrée dans la salle 202")
+    print("Entrée dans la salle 202, renvoie vers Tai. ")
 
 # Liste des boutons et de leurs fonctions
 boutons = [
